@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp c > $CFILE | gcc -S c.o c.c
+gcc -c $CFILE
