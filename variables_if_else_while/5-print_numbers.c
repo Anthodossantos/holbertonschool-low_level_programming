@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int num =01234567;
+int num = 1234567;
 while (num != 0)
 {
 int digit = num % 10;
