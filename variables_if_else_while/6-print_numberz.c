@@ -6,11 +6,9 @@
 */
 int main(void)
 {
-int i = 0;
-for (i < 10 ; i++)
-{
-putchar("%i");
+int i;
+for (i = '0'; i <='9'; i++)
+putchar(i);
 printf("\n");
-}
 return (0);
 }
