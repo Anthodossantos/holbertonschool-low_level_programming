@@ -5,12 +5,9 @@
  */
 int main(void)
 {
-int num = 1234567;
-while (num != 0)
-{
-int digit = num % 10;
-num = num / 10;
-printf("%d", digit);
-}
+int n;
+for (n = 0; n < 10; n++
+printf("%d", n);
+printf ("\n");
 return (0);
 }
