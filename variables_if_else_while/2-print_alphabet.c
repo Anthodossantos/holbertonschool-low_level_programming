@@ -1,16 +1,15 @@
 #include <stdio.h>
 /**
- *main - putchar print alphabet
+ *main - putchar alphabet
  *
  *Return: 0
  */
-int (x = a);
-int main(void)
+void main(void)
 {
-for (x <= 'z'; x++)
-{
-x = tolower(x);
-putchar(x);
-}
-return (0);
+int ch;
+clrscr();
+for (ch = ‘a’; ch <= ‘z’; ch++)
+putchar(ch);
+putchar (‘\n’);
+getch();
 }
