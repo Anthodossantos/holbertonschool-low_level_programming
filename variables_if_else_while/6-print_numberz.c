@@ -6,9 +6,10 @@
 */
 int main(void)
 {
-for (int i = 0; i < 10 ; i++)
+int i = 0
+for (i < 10 ; i++)
 {
-putchar((i / 1) + '0');
+putchar("%i");
 printf("\n");
 }
 return (0);
