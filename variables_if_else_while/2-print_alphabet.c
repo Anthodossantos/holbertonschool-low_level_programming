@@ -4,12 +4,10 @@
  *
  *Return: 0
  */
-void main(void)
+int main(void)
 {
-int ch;
-clrscr();
-for (ch = ‘a’; ch <= ‘z’; ch++)
-putchar(ch);
-putchar (‘\n’);
-getch();
+char c;
+for (c = 'a'; c <= 'z'; ++c)
+printf("%c", c);
+return (0);
 }
