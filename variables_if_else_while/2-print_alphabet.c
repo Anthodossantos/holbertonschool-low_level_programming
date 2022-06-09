@@ -4,7 +4,7 @@
  *
  *Return: 0
  */
-int (x = a)
+int (x = a);
 int main(void)
 {
 for (x <= 'z'; x++)
